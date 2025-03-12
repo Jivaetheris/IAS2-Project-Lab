@@ -2,7 +2,7 @@
 session_start();
 include "dbConnection.php";
 
-define('ENCRYPTION_KEY', 'your_32_character_encryption_key');
+define('ENCRYPTION_KEY', 'StormFuryBlazeEchoNightWindHawk');
 
 if (!isset($_SESSION['username'])) {
     header("Location: login.php");
