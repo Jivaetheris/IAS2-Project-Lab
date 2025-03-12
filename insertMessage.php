@@ -2,7 +2,7 @@
 include 'dbConnection.php';
 session_start();
 
-define('ENCRYPTION_KEY', 'matanisatanas');
+define('ENCRYPTION_KEY', 'StormFuryBlazeEchoNightWindHawk');
 
 function encryptMessage($message, $key) {
     $iv = openssl_random_pseudo_bytes(16);
