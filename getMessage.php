@@ -2,7 +2,7 @@
 include 'dbConnection.php';
 session_start();
 
-define('ENCRYPTION_KEY', 'matanisatanas');
+define('ENCRYPTION_KEY', 'StormFuryBlazeEchoNightWindHawk');
 
 function decryptMessage($encryptedMessage, $key) {
     $data = base64_decode($encryptedMessage);
